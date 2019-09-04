@@ -1,0 +1,871 @@
+[
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 1,
+    "dc_id": 1,
+    "dc_name": "DC01-SJC",
+    "dc_region_id": 18,
+    "dc_short_name": "DC1",
+    "dc_updated_date": 1533913190,
+    "pods": [
+      {
+        "pod_active_dc": 2,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 1,
+        "pod_dcB": 2,
+        "pod_elastic_id": 5,
+        "pod_id": 5,
+        "pod_name": "Pod 05",
+        "pod_parent": null,
+        "pod_short_name": "POD5",
+        "pod_status": "EOL",
+        "pod_updated_date": 1554414903
+      },
+      {
+        "pod_active_dc": 2,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 1,
+        "pod_dcB": 2,
+        "pod_elastic_id": 6,
+        "pod_id": 6,
+        "pod_name": "Pod 06",
+        "pod_parent": null,
+        "pod_short_name": "POD6",
+        "pod_status": "Live",
+        "pod_updated_date": 1554758103
+      },
+      {
+        "pod_active_dc": 2,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 1,
+        "pod_dcB": 2,
+        "pod_elastic_id": 7,
+        "pod_id": 7,
+        "pod_name": "Pod 07",
+        "pod_parent": null,
+        "pod_short_name": "POD7",
+        "pod_status": "Live",
+        "pod_updated_date": 1552615634
+      },
+      {
+        "pod_active_dc": 3,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 1,
+        "pod_dcB": 3,
+        "pod_elastic_id": 2,
+        "pod_id": 2,
+        "pod_name": "Pod 02",
+        "pod_parent": null,
+        "pod_short_name": "POD2",
+        "pod_status": "Live",
+        "pod_updated_date": 1553782804
+      },
+      {
+        "pod_active_dc": 1,
+        "pod_created_date": 1522086905,
+        "pod_dcA": 1,
+        "pod_dcB": 2,
+        "pod_elastic_id": null,
+        "pod_id": 22,
+        "pod_name": "Lab",
+        "pod_parent": 22,
+        "pod_short_name": null,
+        "pod_status": "In build",
+        "pod_updated_date": 1522168713
+      },
+      {
+        "pod_active_dc": 1,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 1,
+        "pod_dcB": 2,
+        "pod_elastic_id": 1,
+        "pod_id": 1,
+        "pod_name": "Pod 01",
+        "pod_parent": null,
+        "pod_short_name": "POD1",
+        "pod_status": "Live",
+        "pod_updated_date": 1555539303
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "SJC",
+      "region_id": 18,
+      "region_latitudes": 37.3382,
+      "region_longitudes": -121.8863,
+      "region_updated_date": 1508358007
+    }
+  },
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 2,
+    "dc_id": 2,
+    "dc_name": "DC02-PHX",
+    "dc_region_id": 19,
+    "dc_short_name": "DC2",
+    "dc_updated_date": 1507239681,
+    "pods": [
+      {
+        "pod_active_dc": 2,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 2,
+        "pod_dcB": 13,
+        "pod_elastic_id": 10,
+        "pod_id": 10,
+        "pod_name": "Pod 10",
+        "pod_parent": null,
+        "pod_short_name": "POD10",
+        "pod_status": "Live",
+        "pod_updated_date": 1556028903
+      },
+      {
+        "pod_active_dc": 13,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 2,
+        "pod_dcB": 13,
+        "pod_elastic_id": 11,
+        "pod_id": 11,
+        "pod_name": "Pod 11",
+        "pod_parent": null,
+        "pod_short_name": "POD11",
+        "pod_status": "Live",
+        "pod_updated_date": 1548792934
+      },
+      {
+        "pod_active_dc": 2,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 1,
+        "pod_dcB": 2,
+        "pod_elastic_id": 5,
+        "pod_id": 5,
+        "pod_name": "Pod 05",
+        "pod_parent": null,
+        "pod_short_name": "POD5",
+        "pod_status": "EOL",
+        "pod_updated_date": 1554414903
+      },
+      {
+        "pod_active_dc": 2,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 13,
+        "pod_dcB": 2,
+        "pod_elastic_id": 17,
+        "pod_id": 17,
+        "pod_name": "Pod 17",
+        "pod_parent": null,
+        "pod_short_name": "POD17",
+        "pod_status": "Live",
+        "pod_updated_date": 1555064106
+      },
+      {
+        "pod_active_dc": 13,
+        "pod_created_date": 1515411496,
+        "pod_dcA": 13,
+        "pod_dcB": 2,
+        "pod_elastic_id": 19,
+        "pod_id": 20,
+        "pod_name": "Pod 19",
+        "pod_parent": null,
+        "pod_short_name": "POD19",
+        "pod_status": "Live",
+        "pod_updated_date": 1550610603
+      },
+      {
+        "pod_active_dc": 13,
+        "pod_created_date": 1515412362,
+        "pod_dcA": 13,
+        "pod_dcB": 2,
+        "pod_elastic_id": 16,
+        "pod_id": 21,
+        "pod_name": "MP 02",
+        "pod_parent": null,
+        "pod_short_name": "MP2",
+        "pod_status": "Live",
+        "pod_updated_date": 1528402503
+      },
+      {
+        "pod_active_dc": 1,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 1,
+        "pod_dcB": 2,
+        "pod_elastic_id": 1,
+        "pod_id": 1,
+        "pod_name": "Pod 01",
+        "pod_parent": null,
+        "pod_short_name": "POD1",
+        "pod_status": "Live",
+        "pod_updated_date": 1555539303
+      },
+      {
+        "pod_active_dc": 2,
+        "pod_created_date": 1555303605,
+        "pod_dcA": 13,
+        "pod_dcB": 2,
+        "pod_elastic_id": 20,
+        "pod_id": 23,
+        "pod_name": "Pod 20",
+        "pod_parent": null,
+        "pod_short_name": "POD20",
+        "pod_status": "Live",
+        "pod_updated_date": 1558932603
+      },
+      {
+        "pod_active_dc": 2,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 1,
+        "pod_dcB": 2,
+        "pod_elastic_id": 6,
+        "pod_id": 6,
+        "pod_name": "Pod 06",
+        "pod_parent": null,
+        "pod_short_name": "POD6",
+        "pod_status": "Live",
+        "pod_updated_date": 1554758103
+      },
+      {
+        "pod_active_dc": 2,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 1,
+        "pod_dcB": 2,
+        "pod_elastic_id": 7,
+        "pod_id": 7,
+        "pod_name": "Pod 07",
+        "pod_parent": null,
+        "pod_short_name": "POD7",
+        "pod_status": "Live",
+        "pod_updated_date": 1552615634
+      },
+      {
+        "pod_active_dc": 1,
+        "pod_created_date": 1522086905,
+        "pod_dcA": 1,
+        "pod_dcB": 2,
+        "pod_elastic_id": null,
+        "pod_id": 22,
+        "pod_name": "Lab",
+        "pod_parent": 22,
+        "pod_short_name": null,
+        "pod_status": "In build",
+        "pod_updated_date": 1522168713
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "PHX",
+      "region_id": 19,
+      "region_latitudes": 33.4373,
+      "region_longitudes": -112.0078,
+      "region_updated_date": 1507239681
+    }
+  },
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 3,
+    "dc_id": 3,
+    "dc_name": "DC03-AMS",
+    "dc_region_id": 20,
+    "dc_short_name": "DC3",
+    "dc_updated_date": 1507239681,
+    "pods": [
+      {
+        "pod_active_dc": 4,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 3,
+        "pod_dcB": 4,
+        "pod_elastic_id": 3,
+        "pod_id": 3,
+        "pod_name": "Pod 03",
+        "pod_parent": null,
+        "pod_short_name": "POD3",
+        "pod_status": "Live",
+        "pod_updated_date": 1550492704
+      },
+      {
+        "pod_active_dc": 3,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 1,
+        "pod_dcB": 3,
+        "pod_elastic_id": 2,
+        "pod_id": 2,
+        "pod_name": "Pod 02",
+        "pod_parent": null,
+        "pod_short_name": "POD2",
+        "pod_status": "Live",
+        "pod_updated_date": 1553782804
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "AMS",
+      "region_id": 20,
+      "region_latitudes": 52.3702,
+      "region_longitudes": 4.8952,
+      "region_updated_date": 1507239681
+    }
+  },
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 4,
+    "dc_id": 4,
+    "dc_name": "DC04-LON",
+    "dc_region_id": 21,
+    "dc_short_name": "DC4",
+    "dc_updated_date": 1507239681,
+    "pods": [
+      {
+        "pod_active_dc": 4,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 3,
+        "pod_dcB": 4,
+        "pod_elastic_id": 3,
+        "pod_id": 3,
+        "pod_name": "Pod 03",
+        "pod_parent": null,
+        "pod_short_name": "POD3",
+        "pod_status": "Live",
+        "pod_updated_date": 1550492704
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "LON",
+      "region_id": 21,
+      "region_latitudes": 51.5074,
+      "region_longitudes": -0.1278,
+      "region_updated_date": 1507239681
+    }
+  },
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 5,
+    "dc_id": 5,
+    "dc_name": "DC05-DXB",
+    "dc_region_id": 22,
+    "dc_short_name": "DC5",
+    "dc_updated_date": 1507239681,
+    "pods": [
+      {
+        "pod_active_dc": 5,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 5,
+        "pod_dcB": 6,
+        "pod_elastic_id": 4,
+        "pod_id": 4,
+        "pod_name": "Pod 04",
+        "pod_parent": null,
+        "pod_short_name": "POD4",
+        "pod_status": "Live",
+        "pod_updated_date": 1557041103
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "DXB",
+      "region_id": 22,
+      "region_latitudes": 27.2532,
+      "region_longitudes": 53.3657,
+      "region_updated_date": 1508365304
+    }
+  },
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 6,
+    "dc_id": 6,
+    "dc_name": "DC06-AIN",
+    "dc_region_id": 23,
+    "dc_short_name": "DC6",
+    "dc_updated_date": 1507239681,
+    "pods": [
+      {
+        "pod_active_dc": 5,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 5,
+        "pod_dcB": 6,
+        "pod_elastic_id": 4,
+        "pod_id": 4,
+        "pod_name": "Pod 04",
+        "pod_parent": null,
+        "pod_short_name": "POD4",
+        "pod_status": "Live",
+        "pod_updated_date": 1557041103
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "AIN",
+      "region_id": 23,
+      "region_latitudes": 23.1302,
+      "region_longitudes": 56.8023,
+      "region_updated_date": 1508358142
+    }
+  },
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 9,
+    "dc_id": 9,
+    "dc_name": "DC09-TOR",
+    "dc_region_id": 26,
+    "dc_short_name": "DC9",
+    "dc_updated_date": 1507239681,
+    "pods": [
+      {
+        "pod_active_dc": 10,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 9,
+        "pod_dcB": 10,
+        "pod_elastic_id": 12,
+        "pod_id": 12,
+        "pod_name": "Pod 12",
+        "pod_parent": null,
+        "pod_short_name": "POD12",
+        "pod_status": "Live",
+        "pod_updated_date": 1556520604
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "TOR",
+      "region_id": 26,
+      "region_latitudes": 43.6777,
+      "region_longitudes": -79.6248,
+      "region_updated_date": 1507239681
+    }
+  },
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 10,
+    "dc_id": 10,
+    "dc_name": "DC10-VAN",
+    "dc_region_id": 27,
+    "dc_short_name": "DC10",
+    "dc_updated_date": 1507239681,
+    "pods": [
+      {
+        "pod_active_dc": 10,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 9,
+        "pod_dcB": 10,
+        "pod_elastic_id": 12,
+        "pod_id": 12,
+        "pod_name": "Pod 12",
+        "pod_parent": null,
+        "pod_short_name": "POD12",
+        "pod_status": "Live",
+        "pod_updated_date": 1556520604
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "VAN",
+      "region_id": 27,
+      "region_latitudes": 49.1967,
+      "region_longitudes": -123.1815,
+      "region_updated_date": 1507239681
+    }
+  },
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 11,
+    "dc_id": 11,
+    "dc_name": "DC11-RUH",
+    "dc_region_id": 28,
+    "dc_short_name": "DC11",
+    "dc_updated_date": 1507239681,
+    "pods": [
+      {
+        "pod_active_dc": 12,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 11,
+        "pod_dcB": 12,
+        "pod_elastic_id": 8,
+        "pod_id": 8,
+        "pod_name": "Pod 08",
+        "pod_parent": null,
+        "pod_short_name": "POD8",
+        "pod_status": "Live",
+        "pod_updated_date": 1555065904
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "RUH",
+      "region_id": 28,
+      "region_latitudes": 24.9594,
+      "region_longitudes": 46.7026,
+      "region_updated_date": 1507239681
+    }
+  },
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 12,
+    "dc_id": 12,
+    "dc_name": "DC12-JED",
+    "dc_region_id": 29,
+    "dc_short_name": "DC12",
+    "dc_updated_date": 1507239681,
+    "pods": [
+      {
+        "pod_active_dc": 12,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 11,
+        "pod_dcB": 12,
+        "pod_elastic_id": 8,
+        "pod_id": 8,
+        "pod_name": "Pod 08",
+        "pod_parent": null,
+        "pod_short_name": "POD8",
+        "pod_status": "Live",
+        "pod_updated_date": 1555065904
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "JED",
+      "region_id": 29,
+      "region_latitudes": 21.6706,
+      "region_longitudes": 39.1505,
+      "region_updated_date": 1507239681
+    }
+  },
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 13,
+    "dc_id": 13,
+    "dc_name": "DC13-SCL",
+    "dc_region_id": 30,
+    "dc_short_name": "DC13",
+    "dc_updated_date": 1507239681,
+    "pods": [
+      {
+        "pod_active_dc": 13,
+        "pod_created_date": 1515411496,
+        "pod_dcA": 13,
+        "pod_dcB": 2,
+        "pod_elastic_id": 19,
+        "pod_id": 20,
+        "pod_name": "Pod 19",
+        "pod_parent": null,
+        "pod_short_name": "POD19",
+        "pod_status": "Live",
+        "pod_updated_date": 1550610603
+      },
+      {
+        "pod_active_dc": 13,
+        "pod_created_date": 1515412362,
+        "pod_dcA": 13,
+        "pod_dcB": 2,
+        "pod_elastic_id": 16,
+        "pod_id": 21,
+        "pod_name": "MP 02",
+        "pod_parent": null,
+        "pod_short_name": "MP2",
+        "pod_status": "Live",
+        "pod_updated_date": 1528402503
+      },
+      {
+        "pod_active_dc": 2,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 13,
+        "pod_dcB": 2,
+        "pod_elastic_id": 17,
+        "pod_id": 17,
+        "pod_name": "Pod 17",
+        "pod_parent": null,
+        "pod_short_name": "POD17",
+        "pod_status": "Live",
+        "pod_updated_date": 1555064106
+      },
+      {
+        "pod_active_dc": 2,
+        "pod_created_date": 1555303605,
+        "pod_dcA": 13,
+        "pod_dcB": 2,
+        "pod_elastic_id": 20,
+        "pod_id": 23,
+        "pod_name": "Pod 20",
+        "pod_parent": null,
+        "pod_short_name": "POD20",
+        "pod_status": "Live",
+        "pod_updated_date": 1558932603
+      },
+      {
+        "pod_active_dc": 2,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 2,
+        "pod_dcB": 13,
+        "pod_elastic_id": 10,
+        "pod_id": 10,
+        "pod_name": "Pod 10",
+        "pod_parent": null,
+        "pod_short_name": "POD10",
+        "pod_status": "Live",
+        "pod_updated_date": 1556028903
+      },
+      {
+        "pod_active_dc": 13,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 2,
+        "pod_dcB": 13,
+        "pod_elastic_id": 11,
+        "pod_id": 11,
+        "pod_name": "Pod 11",
+        "pod_parent": null,
+        "pod_short_name": "POD11",
+        "pod_status": "Live",
+        "pod_updated_date": 1548792934
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "SCL",
+      "region_id": 30,
+      "region_latitudes": 37.3541,
+      "region_longitudes": -121.9552,
+      "region_updated_date": 1508365236
+    }
+  },
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 14,
+    "dc_id": 14,
+    "dc_name": "DC14-MUM",
+    "dc_region_id": 31,
+    "dc_short_name": "DC14",
+    "dc_updated_date": 1507239681,
+    "pods": [
+      {
+        "pod_active_dc": 15,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 14,
+        "pod_dcB": 15,
+        "pod_elastic_id": 13,
+        "pod_id": 13,
+        "pod_name": "Pod 13",
+        "pod_parent": null,
+        "pod_short_name": "POD13",
+        "pod_status": "Live",
+        "pod_updated_date": 1550049005
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "MUM",
+      "region_id": 31,
+      "region_latitudes": 19.0896,
+      "region_longitudes": 72.8656,
+      "region_updated_date": 1507239681
+    }
+  },
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 15,
+    "dc_id": 15,
+    "dc_name": "DC15-HYD",
+    "dc_region_id": 32,
+    "dc_short_name": "DC15",
+    "dc_updated_date": 1507239681,
+    "pods": [
+      {
+        "pod_active_dc": 15,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 14,
+        "pod_dcB": 15,
+        "pod_elastic_id": 13,
+        "pod_id": 13,
+        "pod_name": "Pod 13",
+        "pod_parent": null,
+        "pod_short_name": "POD13",
+        "pod_status": "Live",
+        "pod_updated_date": 1550049005
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "HYD",
+      "region_id": 32,
+      "region_latitudes": 17.2403,
+      "region_longitudes": 78.4294,
+      "region_updated_date": 1507239681
+    }
+  },
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 16,
+    "dc_id": 16,
+    "dc_name": "DC16-NKG",
+    "dc_region_id": 33,
+    "dc_short_name": "DC16",
+    "dc_updated_date": 1507239681,
+    "pods": [
+      {
+        "pod_active_dc": 16,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 16,
+        "pod_dcB": 17,
+        "pod_elastic_id": 15,
+        "pod_id": 15,
+        "pod_name": "Pod 15",
+        "pod_parent": null,
+        "pod_short_name": "POD15",
+        "pod_status": "Live",
+        "pod_updated_date": 1554196204
+      },
+      {
+        "pod_active_dc": 16,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 16,
+        "pod_dcB": 17,
+        "pod_elastic_id": 9,
+        "pod_id": 9,
+        "pod_name": "Pod 09",
+        "pod_parent": null,
+        "pod_short_name": "POD9",
+        "pod_status": "Live",
+        "pod_updated_date": 1553073306
+      },
+      {
+        "pod_active_dc": 16,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 16,
+        "pod_dcB": 17,
+        "pod_elastic_id": 14,
+        "pod_id": 14,
+        "pod_name": "CUMP 01",
+        "pod_parent": null,
+        "pod_short_name": "MP1",
+        "pod_status": "Live",
+        "pod_updated_date": 1556002803
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "NKG",
+      "region_id": 33,
+      "region_latitudes": 31.7338,
+      "region_longitudes": 115.8719,
+      "region_updated_date": 1508358229
+    }
+  },
+  {
+    "dc_created_date": 1507239681,
+    "dc_elastic_id": 17,
+    "dc_id": 17,
+    "dc_name": "DC17-CAN",
+    "dc_region_id": 34,
+    "dc_short_name": "DC17",
+    "dc_updated_date": 1507239681,
+    "pods": [
+      {
+        "pod_active_dc": 16,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 16,
+        "pod_dcB": 17,
+        "pod_elastic_id": 15,
+        "pod_id": 15,
+        "pod_name": "Pod 15",
+        "pod_parent": null,
+        "pod_short_name": "POD15",
+        "pod_status": "Live",
+        "pod_updated_date": 1554196204
+      },
+      {
+        "pod_active_dc": 16,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 16,
+        "pod_dcB": 17,
+        "pod_elastic_id": 9,
+        "pod_id": 9,
+        "pod_name": "Pod 09",
+        "pod_parent": null,
+        "pod_short_name": "POD9",
+        "pod_status": "Live",
+        "pod_updated_date": 1553073306
+      },
+      {
+        "pod_active_dc": 16,
+        "pod_created_date": 1507239681,
+        "pod_dcA": 16,
+        "pod_dcB": 17,
+        "pod_elastic_id": 14,
+        "pod_id": 14,
+        "pod_name": "CUMP 01",
+        "pod_parent": null,
+        "pod_short_name": "MP1",
+        "pod_status": "Live",
+        "pod_updated_date": 1556002803
+      }
+    ],
+    "region": {
+      "region_created_date": 1507239681,
+      "region_description": "CAN",
+      "region_id": 34,
+      "region_latitudes": 23.3959,
+      "region_longitudes": 113.308,
+      "region_updated_date": 1507239681
+    }
+  },
+  {
+    "dc_created_date": 1514443846,
+    "dc_elastic_id": 18,
+    "dc_id": 18,
+    "dc_name": "DC18-NJG",
+    "dc_region_id": 37,
+    "dc_short_name": "DC18",
+    "dc_updated_date": 1514443846,
+    "pods": [
+      {
+        "pod_active_dc": 18,
+        "pod_created_date": 1514451698,
+        "pod_dcA": 18,
+        "pod_dcB": 19,
+        "pod_elastic_id": 18,
+        "pod_id": 18,
+        "pod_name": "Pod 18",
+        "pod_parent": 14,
+        "pod_short_name": "POD18",
+        "pod_status": "Live",
+        "pod_updated_date": 1550477405
+      }
+    ],
+    "region": {
+      "region_created_date": 1515992200,
+      "region_description": "NJG",
+      "region_id": 37,
+      "region_latitudes": 31.7338,
+      "region_longitudes": 115.8719,
+      "region_updated_date": 1515992200
+    }
+  },
+  {
+    "dc_created_date": 1514443846,
+    "dc_elastic_id": 19,
+    "dc_id": 19,
+    "dc_name": "DC19-FUO",
+    "dc_region_id": 36,
+    "dc_short_name": "DC19",
+    "dc_updated_date": 1514443846,
+    "pods": [
+      {
+        "pod_active_dc": 18,
+        "pod_created_date": 1514451698,
+        "pod_dcA": 18,
+        "pod_dcB": 19,
+        "pod_elastic_id": 18,
+        "pod_id": 18,
+        "pod_name": "Pod 18",
+        "pod_parent": 14,
+        "pod_short_name": "POD18",
+        "pod_status": "Live",
+        "pod_updated_date": 1550477405
+      }
+    ],
+    "region": {
+      "region_created_date": 1514443846,
+      "region_description": "FUO",
+      "region_id": 36,
+      "region_latitudes": 23.0215,
+      "region_longitudes": 113.1214,
+      "region_updated_date": 1514443846
+    }
+  }
+]

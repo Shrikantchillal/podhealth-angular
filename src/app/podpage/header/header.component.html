@@ -1,0 +1,14 @@
+<div class="row header">
+  <div class="col-md-6">
+    <select (change)="podLink(selectedPod)" [(ngModel)]="selectedPod">
+      <option *ngFor="let pod of pods" [ngValue]="pod.pod_id">{{pod.pod_name}}</option>
+    </select>
+  </div>
+  <div class="col-md-3">POD {{selectedPod}}</div>
+  <div class="col-md-3">
+    <div class="float-right">
+      <div>{{todaysDate | date:'medium'}}</div>
+      <a routerLink="/">Home</a>
+    </div>
+  </div>
+</div>

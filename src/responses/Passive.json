@@ -1,0 +1,72 @@
+[
+  {
+    "id": 9,
+    "master": "pd9nkg-push",
+    "master_dc": 16,
+    "master_location": "NKG",
+    "slave": "pd9can-push",
+    "slave_dc": 17,
+    "slave_location": "CAN",
+    "status": "Passive"
+  },
+  {
+    "id": 38,
+    "master": "gamers",
+    "master_dc": 1,
+    "master_location": "SJC",
+    "slave": "pd9nkg-push",
+    "slave_dc": 16,
+    "slave_location": "NKG",
+    "status": "Passive"
+  },
+  {
+    "id": 40,
+    "master": "gamers",
+    "master_dc": 1,
+    "master_location": "SJC",
+    "slave": "gamers",
+    "slave_dc": 1,
+    "slave_location": "SJC",
+    "status": "Passive"
+  },
+  {
+    "id": 36,
+    "master": "gamers",
+    "master_dc": 1,
+    "master_location": "SJC",
+    "slave": "pd13mum-push-01",
+    "slave_dc": 14,
+    "slave_location": "MUM",
+    "status": "Passive"
+  },
+  {
+    "id": 43,
+    "master": "crockera",
+    "master_dc": 2,
+    "master_location": "PHX",
+    "slave": "pd3lon-push-01",
+    "slave_dc": 4,
+    "slave_location": "LON",
+    "status": "Passive"
+  },
+  {
+    "id": 41,
+    "master": "gamers",
+    "master_dc": 1,
+    "master_location": "SJC",
+    "slave": "gamers2",
+    "slave_dc": 13,
+    "slave_location": "SCL",
+    "status": "Passive"
+  },
+  {
+    "id": 42,
+    "master": "gamers",
+    "master_dc": 1,
+    "master_location": "SJC",
+    "slave": "crockera",
+    "slave_dc": 2,
+    "slave_location": "PHX",
+    "status": "Passive"
+  }
+]
